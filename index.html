@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/669f596fd1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <title> Spotify clone</title>
+</head>
+<body>
+    <!--------- navbar -------->
+    <nav id="nav">
+        <div id="navleft">
+            <ul>
+                <li>
+                    <a href="#"><i style="color: green; font-size: 60px; padding-right: 10px;" class="fa-brands fa-spotify"></i><b style="position: relative; bottom: 5px;">Spotify</b></a>
+                </li>
+                <li><a style="position: relative; bottom: 5px;" href="#"><b>Favourite</b></a></li>
+            </ul>
+        </div>
+        <div id="navright">
+            <ul>
+                <li><a href="#"><input style="height: 30px; width: 240px; position: relative; bottom:15px; background-color: rgb(111, 170, 189);" type="text" placeholder="Search...">
+                    <i id="searchicon" class="fa-solid fa-magnifying-glass"></i>
+                    <i id="fa-microphone" class="fa-solid fa-microphone"></i></a>
+                </li>
+                <li><a href="#"><i style="font-size: 30px; position: relative; bottom: 11px" class="fa-solid fa-bell"></i></a></li>
+                <li><a href="#">
+                    <img id="profile" src="https://images.unsplash.com/photo-1466112928291-0903b80a9466?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!------Main section-------  -->
+    <div id="container">
+
+         <!------ left ------>
+         <section id="left">
+            <div id="block" >
+
+                <!-- left first -->
+                <div id="left-first" >
+                    <div><a href="#"><img src="./asset/left/first/latin party.jpg" alt=""></a></div>
+                    <div><a href="#"><img src="./asset/left/first/mood boster.jpg" alt=""></a></div>
+                    <div><a href="#"><img src="./asset/left/first/EMD.jpg" alt=""></a></div>    
+                </div>
+
+                <h1 style="font-size: 30px;">Latest Releases</h1>
+
+                <!-- left second -->
+                <div id="left-second">
+                    <div id="latest-realese">
+                        <figure>
+                            <a id="a" href="#"><i id="play" class="fa-solid fa-play"></i><img style="height: 100px; margin-right: 10px;" src="./asset/left/second/onism.jpg" alt=""></a>
+                            <figcaption><ul type="none"><li>Onism</li><li>Aug 11,2017</li></ul></figcaption>
+                        </figure>
+        
+                        <div><ul type="none"><li>...</li><li>4:48</li></ul></div>
+                    </div>
+                    <div id="latest-realese">
+                        <figure>
+                            <a id="a" href="#"><i id="play" class="fa-solid fa-play"></i><img style="height: 100px; margin-right: 10px;" src="./asset/left/second/Multiply.jpg" alt=""></a>
+                            <figcaption><ul type="none"><li>Multiply</li><li>Oct 3,2014</li></ul></figcaption>
+                        </figure>
+        
+                        <div><ul type="none"><li>...</li><li>4:11</li></ul></div>
+                    </div>
+                    <div id="latest-realese">
+                        <figure>
+                            <a id="a" href="#"><i id="play" class="fa-solid fa-play"></i><img style="height: 100px; margin-right: 10px;" src="./asset/left/second/breakyourself.jpg" alt=""></a>
+                            <figcaption><ul type="none"><li>Break Yourself</li><li>Jan 22, 1991.</li></ul></figcaption>
+                        </figure>
+        
+                        <div><ul type="none"><li>...</li><li>3:11</li></ul></div>
+                    </div>
+                    <div id="latest-realese">
+                        <figure>
+                            <a id="a" href="#"><i id="play" class="fa-solid fa-play"></i><img style="height: 100px; margin-right: 10px;" src="./asset/left/second/onism.jpg" alt=""></a>
+                            <figcaption><ul type="none"><li>Missin' Uh</li><li>Aug 1, 2018 </li></ul></figcaption>
+                        </figure>
+        
+                        <div><ul type="none"><li>...</li><li>5:21</li></ul></div>
+                    </div>
+                    <div id="latest-realese">
+                        <figure>
+                            <a id="a" href="#"><i id="play" class="fa-solid fa-play"></i><img style="height: 100px; margin-right: 10px;" src="./asset/left/second/onism.jpg" alt=""></a>
+                            <figcaption><ul type="none"><li>Right On</li><li>Aug 11,2017</li></ul></figcaption>
+                        </figure>
+        
+                        <div><ul type="none"><li>...</li><li>3:29</li></ul></div>
+                    </div>
+                    <div id="latest-realese">
+                        <figure>
+                            <a id="a" href="#"><i id="play" class="fa-solid fa-play"></i><img style="height: 100px; margin-right: 10px;" src="./asset/left/second/onism.jpg" alt=""></a>
+                            <figcaption><ul type="none"><li>Enemies</li><li>Aug 11,2017</li></ul></figcaption>
+                        </figure>
+        
+                        <div><ul type="none"><li>...</li><li>5:05</li></ul></div>
+                    </div>
+
+                </div>
+                <h1>Popular Artist</h1>
+                    <!-- ------left third------ -->
+                <div id="left-third">
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption>Ed Sheran</figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img src="./asset/left/third/Ed-Sheeran.avif" alt=""></a></figure>
+                        <figcaption >last</figcaption>
+                    </div>
+                    
+                </div>
+
+                <!-- -------left forth------- -->
+                <div id="left-forth">
+                    <div>
+                        <figure id="figfirst"><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                        <figcaption>Music</figcaption>
+                    </div>
+                    <div id="left-forth-scroll">
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                        <div>
+                            <figure><a href="#"><img src="./asset/left/forth/music.avif" alt=""></a></figure>
+                            <figcaption>Music</figcaption>
+                        </div>
+                    </div>
+    
+                </div>
+                <h1>Latest English </h1>
+                <!-- ---------left fifth-------- -->
+                <div id="left-fifth">
+                    <div>
+                        <figure><a href="#"><img id="img"  src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    
+                </div>
+                <h1>Latest Hindi</h1>
+                <!-- ---------left sixth-------- -->
+                <div id="left-fifth">
+                    <div>
+                        <figure><a href="#"><img id="img"  src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><a href="#"><img id="img" src="./asset/left/fifth/shape of you.jpg" alt=""></a></figure>
+                        <figcaption>
+                            <ul type="none">
+                                <li>Shape of You</li>
+                                <li>Aug 11, 2017</li>
+                            </ul>
+                        </figcaption>
+                    </div>
+                    
+                </div>
+            </div>
+         </section>
+
+        <!------ right ------❤️--> 
+        <aside id="right">
+        
+            <div id="rightnav">
+                <div id="rightnav-left">Queue</div>
+                <div id="rightnav-right"><a style="text-decoration: none;" href="">Queue <i class="fa-solid fa-caret-down"></i></a></div>               
+            </div>
+            <div id="rightscroll"> 
+                <div class="rightarticle">
+                    <div>01</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/MIRAGE.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Mirage...</li>
+                            <li>Else</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="rightarticle">
+                    <div>02</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/sorry.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Sorry</li>
+                            <li>Justin Bieber</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="rightarticle">
+                    <div>03</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/See you.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>See You</li>
+                            <li>Wiz Kalifa</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="rightarticle">
+                    <div>04</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/Willow ever more.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Willow</li>
+                            <li>Ever More</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>05</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/Ohgod.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Oh God</li>
+                            <li>OMG</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>06</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/friday.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Friday...</li>
+                            <li>Rebecca</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>07</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/do it.webp" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Do It</li>
+                            <li>Taylor Swift</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>08</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/Belive.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Belive</li>
+                            <li>Justin Bieber</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>09</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/Enchanted.webp" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Enchanted</li>
+                            <li>Taylor Swift</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>10</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/jab tak.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Jab Tak</li>
+                            <li>Arman Malik</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>11</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/Kesariya.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Kesariya</li>
+                            <li>Arijit Singh</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>12</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/style.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Style</li>
+                            <li>Taylor Swift</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>13</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/tum bin.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Tum Bin</li>
+                            <li>Ankit Tiwari</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>14</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/TV.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>TV</li>
+                            <li>Billie Elish</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>15</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/tuya.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>TUYA</li>
+                            <li>Rosalia</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>16</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/obvio.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Obvio</li>
+                            <li>Llane</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>17</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/isolate.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Isolate</li>
+                            <li>Mystry Ark</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>18</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/drone.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Drone</li>
+                            <li>Ayala Cola</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>19</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/fomes.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Forms</li>
+                            <li>Zonara</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>20</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/focused.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Focused</li>
+                            <li>Anda Mane</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                <div class="rightarticle">
+                    <div>21</div>
+                    <div><img style="height: 70px; width: 70px;" src="./asset/Queue/sundown.jpg" alt="img"></div>
+                    <div><ul type="none">
+                            <li>Sundown</li>
+                            <li>Bo Pettri</li>
+                    </ul></div>
+                    <div></div>
+                    <div><i  class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="rightarticle"></div>
+            </div>
+            
+        </aside>
+
+        
+    </div>
+</body>
+</html>

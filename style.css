@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    
+}
+img:hover{
+    cursor: pointer;
+}
+/*--------- layout ------- */
+
+/* -------- navbar ------- */
+#nav{
+    height: fit-content;
+    background-color: black;
+    border-bottom: 1px solid whitesmoke;
+    color: whitesmoke;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+#nav div ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+#nav div ul{
+    list-style: none;
+}
+#navleft li{
+    display: inline-block;
+    padding: 10px 30px 10px 5px;
+}
+#navright li{
+    display:inline-block;
+    padding: 10px 5px 10px 30px;
+    
+}
+#searchicon{
+    position: relative; 
+    right:235px;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+#profile{
+    height: 60px;
+    border-radius: 50% ;
+    position: relative;
+    top: 5px;
+}
+::placeholder{
+    color: white;
+    padding-left: 30px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    font-size: 17px;
+}
+#fa-microphone{
+    position: relative;
+    font-size: 20px;
+    right: 60px;
+    bottom: 10px;
+    color: white;
+}
+/*---------- main section ----------*/
+
+#container{
+    height:fit-content;
+    /* border-left: 1px solid whitesmoke; */
+    margin-top: 100px;
+    position: static;
+    /* display: flex; */
+}
+
+/* --------- rightside --------- */
+
+#right{
+    display: inline-block;
+    background-color: black;
+    height: 100vh;
+    width: 33.3vw;
+    border-left: 1px solid whitesmoke;
+    position: fixed;
+    overflow-y: auto;
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+/* ---------right Navbar -------- */
+#rightnav{
+    height: 70px;
+    background-color: black;
+    width: 33.2vw;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid whitesmoke; */
+    align-items: center;
+}
+
+#rightnav-left{
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#rightnav-right a{
+    font-size: 20px;
+    color:aqua;
+    padding-right: 50px;
+}
+
+/* -----------right scroll-------- */
+#rightscroll{
+    margin-top: 115px;
+    background-color: black;
+}
+#rightscroll .rightarticle{
+    height: 80px;
+    background-color: black;
+    width: 28vw;
+    margin: 20px auto;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#rightscroll .rightarticle div{
+    /* display: inline-block; */
+    /* padding-right: 50px; */
+    font-size: 20px;
+}
+#rightscroll .rightarticle div:nth-of-type(3){
+    font-family: 'Playball', cursive;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 0.01cm;
+}
+.rightarticle div:last-of-type i:hover{
+    cursor: pointer;
+    
+}
+
+/* ---------- leftside ------- */
+#left{
+    display: inline-block;
+    /* align-items: center; */
+    background-color: black;
+    height: fit-content;
+    width: 65vw;
+    /* border: 1px solid whitesmoke; */
+    color: whitesmoke;
+    
+}
+#left #block{
+    margin-left: 25px;
+    margin-top: 90px;
+    height: 100%;
+    width: 62vw;
+    /* border: 1px solid whitesmoke; */
+}
+
+/* left first */
+#left-first{
+    height:15vw;
+    /* border: 1px solid blue; */
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#left-first div img{
+    padding-top: 0%;
+    width: 20vw;
+    height: 100%;
+    transition: 200ms;
+}
+
+/* animation */
+#left-first div img:hover{
+    transform: scale(1.05);
+}
+
+
+/* left second */
+#left-second{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 20px;
+    margin: 20px 0px 20px 0px; 
+}
+
+#latest-realese{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#latest-realese figure{
+    display: flex;
+    align-items: center;
+}
+#play{
+    text-decoration: none;
+    color: whitesmoke;
+    position: relative;
+    left:60px;
+    bottom: 43px;
+    transform: scale(0);
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+/* #a:hover img{
+    /* opacity: 0.5; */
+    /* filter: brightness(0.2); 
+} */
+#a:hover i{
+    transform: scale(2.2);
+}
+/* ---------left third------- */
+#left-third{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+}
+#left-third div figure a img{
+    height: 125px;
+    width: 145px;
+    border-radius: 50%;
+}
+#left-third div figcaption{
+    text-align: center;
+    font-size: 18px;
+}
+#left-third::-webkit-scrollbar{
+    display: none;
+}
+
+/* -------left-forth----- */
+#left-forth{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgb(5, 5, 35);
+    padding-top: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+#left-forth div>figure a img{
+    height: 130px;
+    /* margin-right: 20px; */
+    /* padding: 0px; */
+    width: 145px;
+    border-radius: 50%;
+}
+
+#figfirst{
+    margin-right: 20px;
+}
+#left-forth div figcaption{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Italianno', cursive;
+    position: relative;
+    bottom: 85px;
+}
+#left-forth-scroll{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 10px;
+    align-items: center;
+}
+#left-forth-scroll div figure a img{
+    height: 120px;
+    /* padding: 0px; */
+    width: 135px;
+    border-radius: 50%;
+}
+#left-forth-scroll div figcaption{
+    text-align: center;
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-family: 'Italianno', cursive;
+    position: relative;
+    bottom: 75px;
+}
+#left-forth-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+/* -------left-fifth------ */
+#left-fifth{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+}
+#left-fifth div figcaption ul li{
+    font-size: 18px;
+}
+#left-fifth::-webkit-scrollbar{
+    display: none;
+}
+#img{
+    height: 130px;
+    width:140px
+}
+#img:hover{
+    opacity: 0.4;
+}
+/* --------for responsive------- */
+
+@media screen and (max-width:900px){
+
+    /* ----------navbar-------- */
+    #nav{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    #container{
+        margin-top: 180px;
+    }
+}
+
+
+
